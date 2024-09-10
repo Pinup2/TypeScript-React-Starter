@@ -2,23 +2,41 @@
 # yarn lockfile v1
 
 
-"@types/enzyme@^2.7.2":
-  version "2.7.2"
-  resolved "https://registry.yarnpkg.com/@types/enzyme/-/enzyme-2.7.2.tgz#b19a457f29d2d1a054a880feb86666b993ed6cdc"
+"@types/cheerio@*":
+  version "0.22.35"
+  resolved "https://registry.yarnpkg.com/@types/cheerio/-/cheerio-0.22.35.tgz#0d16dc1f24d426231c181b9c31847f673867595f"
+  integrity sha512-yD57BchKRvTV+JD53UZ6PD8KWY5g5rvvMLRnZR3EQBCZXiDT/HR+pKpMzFGlWNhFrXlo7VPZXtKvIEwZkAWOIA==
   dependencies:
+    "@types/node" "*"
+
+"@types/enzyme@^2.8.12":
+  version "2.8.12"
+  resolved "https://registry.yarnpkg.com/@types/enzyme/-/enzyme-2.8.12.tgz#a669d79ce1760d7241bc4b6fb7535d68669d78ad"
+  integrity sha512-yiUV6c6f2heD1rnw5jQjRNrszS1fEFLWorrMGa3CKfCLI/a6eInzHuTrlT6GzFq8HbzdRYUeYXABNP1QKMDVLQ==
+  dependencies:
+    "@types/cheerio" "*"
     "@types/react" "*"
 
 "@types/jest@^18.1.1":
   version "18.1.1"
   resolved "https://registry.yarnpkg.com/@types/jest/-/jest-18.1.1.tgz#6f63488c64726900885ab9cd5697bb7fa1b416cc"
 
-"@types/node@^7.0.5":
-  version "7.0.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.0.5.tgz#96a0f0a618b7b606f1ec547403c00650210bfbb7"
+"@types/node@*":
+  version "22.5.4"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-22.5.4.tgz#83f7d1f65bc2ed223bdbf57c7884f1d5a4fa84e8"
+  integrity sha512-FDuKUJQm/ju9fT/SeX/6+gBzoPzlVCzfzmGkwKvRHQVxi4BntVbyIwf6a4Xn62mrvndLiml6z/UBXIdEVjQLXg==
+  dependencies:
+    undici-types "~6.19.2"
 
-"@types/react-dom@^0.14.22":
-  version "0.14.22"
-  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-0.14.22.tgz#a9a9d2c1461dda668a8bbaef8d62f6abc7d6b9bd"
+"@types/node@^7.10.14":
+  version "7.10.14"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-7.10.14.tgz#06fa7319b8131b969a8da4a14c487e6f28abacf7"
+  integrity sha512-29GS75BE8asnTno3yB6ubOJOO0FboExEqNJy4bpz0GSmW/8wPTNL4h9h63c6s1uTrOopCmJYe/4yJLh5r92ZUA==
+
+"@types/react-dom@^0.14.23":
+  version "0.14.23"
+  resolved "https://registry.yarnpkg.com/@types/react-dom/-/react-dom-0.14.23.tgz#cecfcfad754b4c2765fe5d29b81b301889ad6c2e"
+  integrity sha512-EMCa3IEBSOE5weypSBxATxKZTAGil/hU48k/fW0jeW+Fj5ZeNGPNtbshVUygKTmvcq6IARZOi9lHJpLgjpkk9A==
   dependencies:
     "@types/react" "*"
 
@@ -33,9 +51,10 @@
   version "15.0.4"
   resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.4.tgz#97aedbba00448a137331aa8450232124aeb8d426"
 
-"@types/react@15.0.14":
-  version "15.0.14"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.0.14.tgz#07a739b20b0d4cf946f52444d3c40a94d4a234b1"
+"@types/react@^15.6.6":
+  version "15.7.30"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-15.7.30.tgz#ff0cb20dff51806401663709d360f76ffb12f69f"
+  integrity sha512-jPeEJc8FcLZBVcOOcEqiGAxc6OIVb9dQ8Lhwr+VoNeKvMEVsaYY9++fo9MOibZsylHq6L1l0q9iwMAMVd3U7/w==
 
 abab@^1.0.3:
   version "1.0.3"
@@ -4379,6 +4398,11 @@ uglify-to-browserify@~1.0.0:
 uid-number@~0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/uid-number/-/uid-number-0.0.6.tgz#0ea10e8035e8eb5b8e4449f06da1c730663baa81"
+
+undici-types@~6.19.2:
+  version "6.19.8"
+  resolved "https://registry.yarnpkg.com/undici-types/-/undici-types-6.19.8.tgz#35111c9d1437ab83a7cdc0abae2f26d88eda0a02"
+  integrity sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==
 
 uniq@^1.0.1:
   version "1.0.1"
